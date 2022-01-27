@@ -1,0 +1,154 @@
+.page-loading {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #830194, #560161, #2b0131, rgb(0, 0, 0));
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    opacity: 1;
+    transition: all .5s;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.box {
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    background: #74FA92;
+    box-shadow: 0 0 0 #00000083, 0 0 0 #00000083;
+    animation: anime 2.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s infinite alternate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* animation-fill-mode: forwards; */
+}
+
+.box img {
+    width: 0;
+    height: 0;
+    background-size: cover;
+    object-fit: cover;
+    animation: anime-foto 2.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s infinite alternate;
+}
+
+@keyframes anime {
+    0% {
+        width: 60px;
+        height: 60px;
+        background: #74FA92;
+        box-shadow: 0 0 0 #00000083, 0 0 0 #00000083, 10px 10px 10px #ffffff83 inset, -10px -10px 10px #ffffff83 inset;
+        font-size: 0;
+    }
+    25% {
+        width: 60px;
+        height: 60px;
+        background: #74FA92;
+        box-shadow: 0px 0px 10px #00000083, 0px 0px 10px #00000083, 0 0 0 #00000083 inset, 0 0 0 #00000083 inset;
+        font-size: 0;
+    }
+    50% {
+        width: 60px;
+        height: 120px;
+        background: #74FA92;
+        box-shadow: 5px 5px 10px #00000083, 5px 5px 10px #00000083, 0 0 0 #00000083 inset, 0 0 0 #00000083 inset;
+        font-size: 0;
+    }
+    100% {
+        width: 480px;
+        height: 180px;
+        background: #74FA92;
+        box-shadow: 40px 40px 40px #00000083, 0 0 0 #00000083, 0 0 0 #00000083 inset, 2px 2px 2px #00000083 inset;
+    }
+}
+
+
+@keyframes anime-foto {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+    25% {
+        width: 0px;
+        height: 0px;
+    }
+    50% {
+        width: 0px;
+        height: 0px;
+    }
+    100% {
+        width: 480px;
+        height: 180px;
+    }
+}
+
+
+@media screen and (max-width:767px){
+    
+@keyframes anime-foto {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+    25% {
+        width: 0px;
+        height: 0px;
+    }
+    50% {
+        width: 0px;
+        height: 0px;
+    }
+    100% {
+        width: 300px;
+        height: 180px;
+    }
+}
+}
+
+@media screen and (max-width:767px) {
+    @keyframes anime {
+        0% {
+            width: 60px;
+            height: 60px;
+            background: #74FA92;
+            box-shadow: 0 0 0 #00000083, 0 0 0 #00000083, 10px 10px 10px #ffffff83 inset, -10px -10px 10px #ffffff83 inset;
+            font-size: 0;
+        }
+        25% {
+            width: 60px;
+            height: 60px;
+            background: #74FA92;
+            box-shadow: 0px 0px 10px #00000083, 0px 0px 10px #00000083, 0 0 0 #00000083 inset, 0 0 0 #00000083 inset;
+            font-size: 0;
+        }
+        50% {
+            width: 60px;
+            height: 120px;
+            background: #74FA92;
+            box-shadow: 5px 5px 10px #00000083, 5px 5px 10px #00000083, 0 0 0 #00000083 inset, 0 0 0 #00000083 inset;
+            font-size: 0;
+        }
+        100% {
+            width: 300px;
+            height: 180px;
+            background: #74FA92;
+            box-shadow: 40px 40px 40px #00000083, 0 0 0 #00000083, 0 0 0 #00000083 inset, 2px 2px 2px #00000083 inset;
+        }
+    }
+}

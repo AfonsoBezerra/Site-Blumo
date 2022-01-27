@@ -1,0 +1,130 @@
+.local{
+    width: 100vw;
+    height: 350px;
+    background-color: #BF7AFF;
+    position: relative;
+    z-index: 0;
+    transform: translateY(-45px);
+    overflow-x: hidden;
+}
+@media screen and (min-width:768px){
+    .local{
+        height: 500px;
+    }
+}
+.neon{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/neon.webp);
+    background-repeat: no-repeat;
+    background-position:  center center;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width:768px){
+    .neon{
+        background-image: url(../images/img-desk/neon.png);
+        background-size: cover;
+    }
+}
+
+.contato-container{
+    align-self: center;
+    width: 100%;
+    height: 80%;
+}
+
+.img-contato{
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/png/teste.png);
+    background-repeat: no-repeat;
+    background-position:center top ;
+    background-size:contain;
+    margin-left: 2px;
+    object-fit:fill;
+    transform: scale(1);
+}
+
+@media screen and (min-width:430px){
+    .img-contato{
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width:460px){
+    .img-contato{
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-width:480px){
+    .img-contato{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width:768px){
+    .img-contato{
+        width: 80%;
+        height: 80%;
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+}
+
+
+@media screen and (min-width:1024px){
+    .img-contato{
+     display: none;
+    }
+    .img-contato-desk{
+        width: 90%;
+        height: 90%;
+        margin-top: 0px;
+        background-image: url(../images/png/teste.png);
+        background-repeat: no-repeat;
+        background-position:center top ;
+        background-size:contain;
+        margin-left: 2px;
+        object-fit:fill;
+        transform: scale(1);
+    }
+}
+
+@media screen and (min-width:1440px){
+    .img-contato-desk{
+        width: 100%;
+    }
+}
+
+.mapa{
+    width: 100vw;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+    border-top-left-radius: 40px;
+    box-shadow: -1px 4px 21px 2px rgba(36,2,36,0.75);
+    -webkit-box-shadow: -1px 4px 21px 2px rgba(36,2,36,0.75);
+    -moz-box-shadow: -1px 4px 21px 2px rgba(36,2,36,0.75);
+}
+
+@media screen and (min-width:1024px){
+    .mapa{
+        width: 100vw;
+    }
+}
+
+.arrumando{
+    position: relative;
+    z-index: 2;
+    margin-top: -100px;
+}
+
+@media screen and (min-width:1024){
+    .arrumando{
+        margin-top: -200px;
+    }
+}
+

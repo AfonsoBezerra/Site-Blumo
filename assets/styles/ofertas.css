@@ -1,0 +1,602 @@
+.ofertas-box{
+    align-self: center;
+    height: 90%;
+    width: 100%;
+    grid-column: 2;
+    justify-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 8px;
+}
+
+.title-ofertas{
+    grid-row: 1;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.555em;
+    color: #74FA92;
+}
+
+.ofertas1{
+    grid-row: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    background: rgba(191, 122, 255, 0.27);
+    width: 90%;
+    height: 80%;
+    border-radius: 20px;
+}
+@media screen and (min-width:768px){
+    .ofertas1{
+        height: 90%;
+        width: 80%;
+    }
+}
+
+.ofertas2{
+    grid-row: 3;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 90%;
+    height: 80%;
+    background: rgba(191, 122, 255, 0.27);
+    border-radius: 20px;
+}
+
+@media screen and (min-width:768px){
+    .ofertas2{
+        height: 90%;
+        width: 80%;
+    }
+}
+
+.ofertas3{
+    grid-row: 4;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 90%;
+    height: 80%;
+    border-radius: 20px;
+    background: rgba(191, 122, 255, 0.27);
+}
+
+@media screen and (min-width:768px){
+    .ofertas3{
+        height: 90%;
+        width: 80%;
+    }
+}
+
+.ofertas4{
+    grid-row: 5;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 90%;
+    height: 80%;
+    border-radius: 20px;
+    background: rgba(191, 122, 255, 0.27);
+}
+
+@media screen and (min-width:768px){
+    .ofertas4{
+        height: 90%;
+        width: 80%;
+    }
+}
+
+.ofertas5{
+    width: 90%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row: 6;
+    height: 80%;
+    border-radius: 20px;
+    background: rgba(191, 122, 255, 0.27);
+}
+
+@media screen and (min-width:768px){
+    .ofertas5{
+        height: 90%;
+        width: 80%;
+    }
+}
+
+.ofertas6{
+    width: 90%;
+    height: 80%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row: 7;
+    border-radius: 20px;
+    background: rgba(191, 122, 255, 0.27);
+}
+
+@media screen and (min-width:768px){
+    .ofertas6{
+        height: 90%;
+        width: 80%;
+    }
+}
+
+.ofertas1 span{
+    grid-row: 1;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;  
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 96%;
+    align-self: start;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0 0 0 ;
+    color: #74FA92;
+}
+
+.ofertas1-desk span{
+    grid-row: 1;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;  
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 96%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0 0 0 ;
+    color: #74FA92;
+}
+
+@media screen and (min-width:768px){
+    .ofertas1 span{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .ofertas1-desk span{
+        font-size: 20px;
+    }
+}
+
+.ofertas1 p{
+    grid-row: 2;
+    justify-self: center;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+.ofertas1-desk p{
+    grid-row: 2;
+    justify-self: center;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+@media screen and (min-width:1440px){
+    .ofertas1-desk p{
+        font-size: 25px;
+    }
+}
+
+.ofertas2 span{
+    grid-row: 1;
+    justify-self: center;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;  
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 96%;
+    align-self: start;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0 0 0 ;
+    color: #74FA92;
+}
+
+
+.ofertas2-desk span{
+    grid-row: 1;
+    justify-self: center;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;  
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 96%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0 0 0 ;
+    color: #74FA92;
+}
+@media screen and (min-width:768px){
+    .ofertas2 span{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .ofertas2-desk span{
+        font-size: 18px;
+    }
+}
+
+.ofertas2 p{
+    grid-row: 2;
+    justify-self: center;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+.ofertas2-desk p{
+    grid-row: 2;
+    justify-self: center;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+@media screen and (min-width:1440px){
+    .ofertas2-desk p{
+        font-size: 25px;
+    }
+}
+
+.ofertas3 span{
+    justify-self: center;
+    grid-row: 1;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;  
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 96%;
+    align-self: start;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0 0 0 ;
+    color: #74FA92;
+}
+
+.ofertas3-desk span{
+    justify-self: center;
+    grid-row: 1;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;  
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 96%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0 0 0 ;
+    color: #74FA92;
+}
+
+@media screen and (min-width:768px){
+    .ofertas3 span{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .ofertas3-desk span{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:1920px){
+    .ofertas3-desk span{
+        font-size: 18px;
+    }
+}
+
+
+.ofertas3 p{
+    grid-row: 2;
+    justify-self: center;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+.ofertas3-desk p{
+    grid-row: 2;
+    justify-self: center;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+@media screen and (min-width:1440px){
+    .ofertas3-desk p{
+        font-size: 25px;
+    }
+}
+
+.ofertas4 span{
+    justify-self: center;
+    grid-row: 1;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;  
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 96%;
+    align-self: start;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0 0 0 ;
+    color: #74FA92;
+}
+
+.ofertas4-desk span{
+    justify-self: center;
+    grid-row: 1;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;  
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 96%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0 0 0 ;
+    color: #74FA92;
+}
+
+
+@media screen and (min-width:768px){
+    .ofertas4 span{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .ofertas4-desk span{
+        font-size: 20px;
+    }
+}
+
+.ofertas4 p{
+    grid-row: 2;
+    justify-self: center;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+.ofertas4-desk p{
+    grid-row: 2;
+    justify-self: center;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+@media screen and (min-width:1440px){
+    .ofertas4-desk p{
+        font-size: 25px;
+    }
+}
+
+.ofertas5 span{
+    justify-self: center;
+    grid-row: 1;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;  
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 96%;
+    align-self: start;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0 0 0 ;
+    color: #74FA92;
+}
+
+.ofertas5-desk span{
+    justify-self: center;
+    grid-row: 1;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;  
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 96%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0 0 0 ;
+    color: #74FA92;
+}
+
+@media screen and (min-width:768px){
+    .ofertas5 span{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .ofertas5-desk span{
+        font-size: 20px;
+    }
+}
+
+.ofertas5 p{
+    grid-row: 2;
+    justify-self: center;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+
+.ofertas5-desk p{
+    grid-row: 2;
+    justify-self: center;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+@media screen and (min-width:1440px){
+    .ofertas5-desk p{
+        font-size: 25px;
+    }
+}
+
+.ofertas6 span{
+    justify-self: center;
+    grid-row: 1;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;  
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 96%;
+    align-self: start;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0 0 0 ;
+    color: #74FA92;
+}
+
+.ofertas6-desk span{
+    justify-self: center;
+    grid-row: 1;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;  
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 96%;
+    align-self:center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0 0 0 ;
+    color: #74FA92;
+}
+
+
+@media screen and (min-width:768px){
+    .ofertas6 span{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .ofertas6-desk span{
+        font-size: 20px;
+    }
+}
+
+.ofertas6 p{
+    grid-row: 2;
+    justify-self: center;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+.ofertas6-desk p{
+    grid-row: 2;
+    justify-self: center;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+@media screen and (min-width:1440px){
+    .ofertas6-desk p{
+        font-size: 25px;
+    }
+}
