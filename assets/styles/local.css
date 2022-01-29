@@ -121,7 +121,7 @@
     align-self: center;
     justify-self: center;
     text-align: center;
-    color: #ffffffcb;
+    color: #fffffff7;
     width: 90%;
 }
 
@@ -133,7 +133,7 @@
     font-size: 9px;
     align-self: center;
     text-align: center;
-    color: #ffffffcb;
+    color: #fffffff7;
     width: 100%;
     display: flex;
     flex-direction: column;
