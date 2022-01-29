@@ -279,7 +279,7 @@
     .endereco .telefone{
         font-size: 14px;
     }
-    .telefone a::before{
+    .telefone span::before{
         font-size: 14px;
     }
 }
