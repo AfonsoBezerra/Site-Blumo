@@ -240,7 +240,7 @@ header {
     right: 0;
     position: fixed;
     width: 0;
-    height: 150px;
+    height: 180px;
     background-color: #74FA92;
     visibility: hidden;
     opacity: 0;
@@ -367,7 +367,8 @@ header {
 .btn1,
 .btn2,
 .btn3,
-.btn4 {
+.btn4,
+.btn5 {
     opacity: 0.6;
     transition: all .2s;
     cursor: pointer;
@@ -377,6 +378,7 @@ header {
 .btn2:hover,
 .btn3:hover,
 .btn4:hover,
+.btn5:hover,
 .active {
     opacity: 1;
 }

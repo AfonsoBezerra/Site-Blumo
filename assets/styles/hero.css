@@ -360,7 +360,7 @@ main {
 }
 
 .servico {
-    justify-self: flex-end;
+    justify-self: flex-start;
     align-self: center;
     grid-row: 1;
     height: 35Px;
@@ -368,8 +368,8 @@ main {
     display: flex;
     justify-content: center;
     background-color: #74FA92;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .servico span {
