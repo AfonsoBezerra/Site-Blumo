@@ -270,7 +270,7 @@
     .endereco span{
         font-size: 14px;
     }
-    .chegar a{
+    .chegar p a{
         font-size: 14px;
     }
     .chegar p::before{
