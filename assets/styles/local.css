@@ -90,7 +90,7 @@
     border-top-left-radius: 40px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.501);
     display: grid;
-    grid-template-rows: 30% 50% 20%;
+    grid-template-rows: 25% 50% 25%;
 }
 
 .loja1 .title{
@@ -121,7 +121,7 @@
     align-self: center;
     justify-self: center;
     text-align: center;
-    color: #ffffffb6;
+    color: #ffffffcb;
     width: 90%;
 }
 
@@ -132,12 +132,18 @@
     font-weight: normal;
     font-size: 9px;
     align-self: center;
-    justify-self: center;
     text-align: center;
-    color: #ffffffb6;
-    width: 95%;
+    color: #ffffffcb;
+    width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    margin-top: 15px;
+    gap: 0.7rem;
+}
+
+.number1{
+    transform: translateX(-5px);
 }
 
 .telefone a::before{
@@ -156,12 +162,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translateX(-5px);
 }
 
 .chegar a{
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 10px;
+    padding: 15px 0;
 }
 
 .chegar p::before{
@@ -201,7 +209,7 @@
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.501);
     border-bottom-right-radius: 40px;
     display: grid;
-    grid-template-rows: 30% 50% 20%;
+    grid-template-rows: 25% 50% 25%;
     justify-content: center;
 }
 
