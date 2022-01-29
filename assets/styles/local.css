@@ -131,6 +131,9 @@
 
 .endereco .chegar{
     grid-row: 3;
+}
+
+.chegar p{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,6 +150,7 @@
     content: "\f3c5";
     font-size: 10px;
     color: #74FA92;
+    padding: 0 5px;
 }
 
 .icons{
