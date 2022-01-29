@@ -143,6 +143,8 @@
 .telefone h3{
     color: white !important;
     font-size: 9px;
+    -webkit-text-fill-color: white;
+    text-decoration: none;
 }
 
 .number1{
