@@ -183,7 +183,7 @@ new VenoBox({
 
 new VenoBox({
     selector: '.my-text',
-    maxWidth: '',
+    maxWidth: '350px',
 });
 
 window.addEventListener('load', (event) => {
