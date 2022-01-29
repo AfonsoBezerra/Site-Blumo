@@ -1029,3 +1029,12 @@ main {
     z-index: 999;
     transform: translateY(-800px);
 }
+
+.invisible-mobile{
+    position: absolute;
+    /* width: 100vw;
+    height: 100px; */
+    background: black;
+    z-index: 999;
+    transform: translateY(-1150px);
+}
