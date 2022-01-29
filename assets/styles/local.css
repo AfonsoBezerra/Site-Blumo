@@ -144,7 +144,6 @@
     color: white !important;
     font-size: 9px;
     -webkit-text-fill-color: white !important;
-    text-decoration-line: none;
 }
 
 .number1{
@@ -155,7 +154,8 @@
     font-family: 'icons';
     content: "\f232";
     font-size: 10px;
-    color: #74FA92;
+    color: #74FA92 !important;
+    -webkit-text-fill-color: #74FA92 !important;
     padding: 0 5px;
 }
 
