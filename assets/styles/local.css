@@ -280,10 +280,10 @@
         font-size: 14px;
     }
     .endereco .telefone h3{
-        font-size: 14px;
+        font-size: 12px;
     }
-    .telefone span::before{
-        font-size: 14px;
+    .telefone h3 span::before{
+        font-size: 12px;
     }
 }
 
