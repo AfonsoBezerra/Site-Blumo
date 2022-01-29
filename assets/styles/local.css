@@ -130,10 +130,8 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;  
     font-weight: normal;
-    font-size: 9px;
     align-self: center;
     text-align: center;
-    color: white !important;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -142,11 +140,16 @@
     gap: 0.7rem;
 }
 
+.telefone h3{
+    color: white !important;
+    font-size: 9px;
+}
+
 .number1{
     transform: translateX(-5px);
 }
 
-.telefone span::before{
+.telefone h3 span::before{
     font-family: 'icons';
     content: "\f232";
     font-size: 10px;
