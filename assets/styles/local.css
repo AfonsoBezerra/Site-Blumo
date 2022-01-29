@@ -279,7 +279,7 @@
     .chegar p::before{
         font-size: 14px;
     }
-    .endereco .telefone{
+    .endereco .telefone h3{
         font-size: 14px;
     }
     .telefone span::before{
