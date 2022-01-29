@@ -140,14 +140,16 @@
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 10px;
+    align-self: center;
 }
 
 .chegar p::before{
     font-family: 'icons-solid';
     content: "\f3c5";
-    font-size: 9px;
+    font-size: 10px;
     color: #74FA92;
     padding: 0 5px;
+    align-self: center;
 }
 
 .icons{
