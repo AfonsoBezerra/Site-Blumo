@@ -22,6 +22,7 @@
         height: 500px;
     }
 }
+
 .neon{
     width: 100%;
     height: 100%;
@@ -51,6 +52,24 @@
     justify-content: center;
     align-items: center;
 
+}
+
+.contato-desk{
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 70% 30%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .contato{
+        display: none;
+    }
+    .contato-desk{
+        display: grid;
+    }
 }
 
 .img-contato{
@@ -213,74 +232,50 @@
 }
 
 
+
 @media screen and (min-width:430px){
     .img-contato{
-        margin-top: 15px;
+        margin-top: 50px;
     }
 }
 
-@media screen and (min-width:460px){
-    .img-contato{
-        margin-top: 5px;
-    }
-}
-
-@media screen and (min-width:480px){
-    .img-contato{
-        margin-top: 0px;
-    }
-}
 
 @media screen and (min-width:768px){
     .img-contato{
-        width: 80%;
-        height: 80%;
-        margin-top: 20px;
-        margin-left: 70px;
-    }
-}
-
-
-@media screen and (min-width:1024px){
-    .img-contato{
-     display: none;
-    }
-    .img-contato-desk{
-        width: 90%;
-        height: 90%;
-        margin-top: 0px;
-        background-image: url(../images/png/teste.png);
-        background-repeat: no-repeat;
-        background-position:center top ;
-        background-size:contain;
-        margin-left: 2px;
-        object-fit:fill;
-        transform: scale(1);
-    }
-}
-
-@media screen and (min-width:1440px){
-    .img-contato-desk{
         width: 100%;
+        height: 80%;
+        margin-top: 50px;
+    }
+
+    .loja1 .title{
+        font-size: 20px;
+    }
+
+    .loja2 .title{
+        font-size: 20px;
+    }
+
+    .carro-contato{
+        width: 400px;
+        height: 200px;
+    }
+    .endereco span{
+        font-size: 14px;
+    }
+    .chegar a{
+        font-size: 14px;
+    }
+    .chegar p::before{
+        font-size: 14px;
+    }
+    .endereco .telefone{
+        font-size: 14px;
+    }
+    .telefone a::before{
+        font-size: 14px;
     }
 }
 
-.mapa{
-    width: 100vw;
-    height: 200px;
-    position: relative;
-    z-index: 1;
-    border-top-left-radius: 40px;
-    box-shadow: -1px 4px 21px 2px rgba(36,2,36,0.75);
-    -webkit-box-shadow: -1px 4px 21px 2px rgba(36,2,36,0.75);
-    -moz-box-shadow: -1px 4px 21px 2px rgba(36,2,36,0.75);
-}
-
-@media screen and (min-width:1024px){
-    .mapa{
-        width: 100vw;
-    }
-}
 
 .arrumando{
     position: relative;
@@ -290,7 +285,7 @@
 
 @media screen and (min-width:1024){
     .arrumando{
-        margin-top: -200px;
+        margin-top: 0px;
     }
 }
 

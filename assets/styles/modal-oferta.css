@@ -1,0 +1,85 @@
+
+@font-face{
+    font-family: 'icons';
+    src: url(../fontawesome-free-5.15.4-desktop/otfs/Font\ Awesome\ 5\ Brands-Regular-400.otf);
+}
+
+.vbox-inline{
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    padding: 1rem;
+    background-color: #30073b98 !important;
+    box-shadow: 0px 4px 9px rgba(191, 122, 255, 0.77);
+    color: rgba(255, 255, 255, 0.672);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+.header-oferta h1{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    color: #74FA92;
+
+}
+
+.footer-oferta p{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.items-modal li{
+    font-size: 0.9rem;
+    list-style: none;
+    padding: .2rem 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#detalhe{
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.precos-oferta{
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+.preco1{
+    font-size: 0.9rem;
+    color: white;
+}
+
+.preco2{
+    font-size: 0.9rem;
+    color: white;
+}
+
+.whatsapp-oferta-modal{
+    width: 200px;
+    height: 40px;
+    background-color: #74FA92;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.412);
+    cursor: pointer;
+}
+
+.whatsapp-oferta-modal span::before{
+    font-family: "icons";
+    content: '\f232';
+    font-size: 24px;
+    color:rgb(0, 0, 0);
+}
+
+.whatsapp-oferta-modal p{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}

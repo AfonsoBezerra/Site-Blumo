@@ -147,7 +147,7 @@ document.getElementById('principal').addEventListener('scroll', () => {
         }
     } else if (tela >= 1440 && tela < 1920) {
         const posibutton = button_desk.getBoundingClientRect();
-        if (posibutton.y <= 882 && posibutton.y > 70) {
+        if (posibutton.y <= 1200 && posibutton.y > 70) {
             buttonredondo.style.opacity = '0'
             button_desk.style.opacity = '1'
         } else {
@@ -178,6 +178,12 @@ new VenoBox({
     bgcolor: 'transparent',
     maxWidth: '80%',
     spinner: 'swing',
+});
+
+
+new VenoBox({
+    selector: '.my-text',
+    maxWidth: '',
 });
 
 window.addEventListener('load', (event) => {

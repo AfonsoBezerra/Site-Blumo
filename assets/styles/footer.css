@@ -27,4 +27,7 @@ footer{
     .footer{
         background-image: url(../images/img-desk/Frame\ 20.png);
     }
+    footer{
+        height: 100px;
+    }
 }

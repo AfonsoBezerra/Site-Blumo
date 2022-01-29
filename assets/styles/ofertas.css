@@ -35,6 +35,12 @@
     padding-right: 5px;
 }
 
+@media screen and (min-width:1440px) {
+    .sub{
+        font-size: 15px;
+    }
+}
+
 .title-ofertas span {
     font-family: 'Russo One', sans-serif;
     font-style: normal;
@@ -74,12 +80,6 @@
     height: 90%;
     border-radius: 20px;
 }
-@media screen and (min-width:768px){
-    .ofertas1{
-        height: 90%;
-        width: 80%;
-    }
-}
 
 .ofertas2{
     grid-row: 3;
@@ -91,12 +91,6 @@
     border-radius: 20px;
 }
 
-@media screen and (min-width:768px){
-    .ofertas2{
-        height: 90%;
-        width: 80%;
-    }
-}
 
 .ofertas3{
     grid-row: 4;
@@ -108,12 +102,6 @@
     background: rgba(191, 122, 255, 0.27);
 }
 
-@media screen and (min-width:768px){
-    .ofertas3{
-        height: 90%;
-        width: 80%;
-    }
-}
 
 .ofertas4{
     grid-row: 5;
@@ -124,14 +112,6 @@
     border-radius: 20px;
     background: rgba(191, 122, 255, 0.27);
 }
-
-@media screen and (min-width:768px){
-    .ofertas4{
-        height: 90%;
-        width: 80%;
-    }
-}
-
 .ofertas5{
     width: 90%;
     display: grid;
@@ -140,13 +120,6 @@
     height: 90%;
     border-radius: 20px;
     background: rgba(191, 122, 255, 0.27);
-}
-
-@media screen and (min-width:768px){
-    .ofertas5{
-        height: 90%;
-        width: 80%;
-    }
 }
 
 .ofertas6{
@@ -159,19 +132,12 @@
     background: rgba(191, 122, 255, 0.27);
 }
 
-@media screen and (min-width:768px){
-    .ofertas6{
-        height: 90%;
-        width: 80%;
-    }
-}
-
 .ofertas1 h1{
     grid-row: 1;
     font-family: 'Russo One', sans-serif;
     font-style: normal;  
     font-weight: normal;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 96%;
     align-self: start;
     display: flex;
@@ -186,7 +152,7 @@
     font-family: 'Russo One', sans-serif;
     font-style: normal;  
     font-weight: normal;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 96%;
     align-self: center;
     display: flex;
@@ -207,15 +173,29 @@
 }
 
 
+.ofertas1-desk a{
+    justify-self: center;
+    grid-row: 3;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: #FFFFFF; 
+}
+
+
 @media screen and (min-width:768px){
     .ofertas1 h1{
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 
 @media screen and (min-width:1440px){
     .ofertas1-desk h1{
-        font-size: 20px;
+        font-size: 16px;
+    }
+    .ofertas1-desk a{
+        font-size: 12px;
     }
 }
 
@@ -225,7 +205,7 @@
     font-family: 'Russo One', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 24px;
     display: flex;
     align-items: center;
@@ -251,6 +231,9 @@
     .ofertas1-desk p{
         font-size: 25px;
     }
+    .ofertas2-desk a{
+        font-size: 12px;
+    }
 }
 
 .ofertas2 h1{
@@ -259,7 +242,7 @@
     font-family: 'Russo One', sans-serif;
     font-style: normal;  
     font-weight: normal;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 96%;
     align-self: start;
     display: flex;
@@ -276,7 +259,7 @@
     font-family: 'Russo One', sans-serif;
     font-style: normal;  
     font-weight: normal;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 96%;
     align-self: center;
     display: flex;
@@ -297,13 +280,13 @@
 
 @media screen and (min-width:768px){
     .ofertas2 h1{
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 
 @media screen and (min-width:1440px){
     .ofertas2-desk h1{
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
@@ -334,10 +317,23 @@
     text-align: center;
     color: #FFFFFF; 
 }
+.ofertas2-desk a{
+    justify-self: center;
+    grid-row: 3;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: #FFFFFF; 
+}
+
 
 @media screen and (min-width:1440px){
     .ofertas2-desk p{
         font-size: 25px;
+    }
+    .ofertas2-desk a{
+        font-size: 12px;
     }
 }
 
@@ -347,7 +343,7 @@
     font-family: 'Russo One', sans-serif;
     font-style: normal;  
     font-weight: normal;
-    font-size: 14px;
+    font-size: 11px;
     line-height: 96%;
     align-self: start;
     display: flex;
@@ -363,7 +359,7 @@
     font-family: 'Russo One', sans-serif;
     font-style: normal;  
     font-weight: normal;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 96%;
     align-self: center;
     display: flex;
@@ -383,16 +379,29 @@
     color: #FFFFFF; 
 }
 
+.ofertas3-desk a{
+    justify-self: center;
+    grid-row: 3;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: #FFFFFF; 
+}
+
 
 @media screen and (min-width:768px){
     .ofertas3 h1{
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 
 @media screen and (min-width:1440px){
     .ofertas3-desk h1{
-        font-size: 15px;
+        font-size: 16px;
+    }
+    .ofertas3-desk a{
+        font-size: 12px;
     }
 }
 
@@ -443,7 +452,7 @@
     font-family: 'Russo One', sans-serif;
     font-style: normal;  
     font-weight: normal;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 96%;
     align-self: start;
     display: flex;
@@ -459,7 +468,7 @@
     font-family: 'Russo One', sans-serif;
     font-style: normal;  
     font-weight: normal;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 96%;
     align-self: center;
     display: flex;
@@ -479,16 +488,29 @@
     color: #FFFFFF; 
 }
 
+.ofertas4-desk a{
+    justify-self: center;
+    grid-row: 3;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: #FFFFFF; 
+}
+
 
 @media screen and (min-width:768px){
     .ofertas4 h1{
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 
 @media screen and (min-width:1440px){
     .ofertas4-desk h1{
-        font-size: 20px;
+        font-size: 16px;
+    }
+    .ofertas4-desk a{
+        font-size: 12px;
     }
 }
 
@@ -532,7 +554,7 @@
     font-family: 'Russo One', sans-serif;
     font-style: normal;  
     font-weight: normal;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 96%;
     align-self: start;
     display: flex;
@@ -548,7 +570,7 @@
     font-family: 'Russo One', sans-serif;
     font-style: normal;  
     font-weight: normal;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 96%;
     align-self: center;
     display: flex;
@@ -568,16 +590,29 @@
     color: #FFFFFF; 
 }
 
+.ofertas5-desk a{
+    justify-self: center;
+    grid-row: 3;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: #FFFFFF; 
+}
+
 
 @media screen and (min-width:768px){
     .ofertas5 h1{
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 
 @media screen and (min-width:1440px){
     .ofertas5-desk h1{
-        font-size: 20px;
+        font-size: 16px;
+    }
+    .ofertas5-desk a{
+        font-size: 12px;
     }
 }
 
@@ -622,7 +657,7 @@
     font-family: 'Russo One', sans-serif;
     font-style: normal;  
     font-weight: normal;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 96%;
     align-self: start;
     display: flex;
@@ -638,7 +673,7 @@
     font-family: 'Russo One', sans-serif;
     font-style: normal;  
     font-weight: normal;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 96%;
     align-self:center;
     display: flex;
@@ -658,15 +693,29 @@
     color: #FFFFFF; 
 }
 
+.ofertas6-desk a{
+    justify-self: center;
+    grid-row: 3;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: #FFFFFF; 
+}
+
+
 @media screen and (min-width:768px){
     .ofertas6 h1{
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 
 @media screen and (min-width:1440px){
     .ofertas6-desk h1{
-        font-size: 20px;
+        font-size: 16px;
+    }
+    .ofertas6-desk a{
+        font-size: 12px;
     }
 }
 
