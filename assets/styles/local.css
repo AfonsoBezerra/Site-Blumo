@@ -121,7 +121,7 @@
     align-self: center;
     justify-self: center;
     text-align: center;
-    color: #ffffff;
+    color: white;
     width: 90%;
 }
 
@@ -133,7 +133,7 @@
     font-size: 9px;
     align-self: center;
     text-align: center;
-    color: #ffffff;
+    color: white !important;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -146,7 +146,7 @@
     transform: translateX(-5px);
 }
 
-.telefone a::before{
+.telefone span::before{
     font-family: 'icons';
     content: "\f232";
     font-size: 10px;
