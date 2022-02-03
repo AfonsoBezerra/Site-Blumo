@@ -1,14 +1,14 @@
-@font-face{
+@font-face {
     font-family: 'icons';
     src: url(../fontawesome-free-5.15.4-desktop/otfs/Font\ Awesome\ 5\ Brands-Regular-400.otf);
 }
 
-@font-face{
+@font-face {
     font-family: 'icons-solid';
     src: url(../fontawesome-free-5.15.4-desktop/otfs/Font\ Awesome\ 5\ Free-Solid-900.otf);
 }
 
-.local{
+.local {
     width: 100vw;
     height: 400px;
     background-color: #BF7AFF;
@@ -17,44 +17,45 @@
     transform: translateY(-45px);
     overflow-x: hidden;
 }
-@media screen and (min-width:768px){
-    .local{
+
+@media screen and (min-width:768px) {
+    .local {
         height: 500px;
     }
 }
 
-.neon{
+.neon {
     width: 100%;
     height: 100%;
     background-image: url(../images/neon.webp);
     background-repeat: no-repeat;
-    background-position:  center center;
+    background-position: center center;
     display: flex;
     justify-content: center;
 }
-@media screen and (min-width:768px){
-    .neon{
+
+@media screen and (min-width:768px) {
+    .neon {
         background-image: url(../images/img-desk/neon.png);
         background-size: cover;
     }
 }
 
-.contato-container{
+.contato-container {
     width: 100%;
     height: 100%;
 }
 
-.contato{
+.contato {
     width: 100%;
     height: 100%;
     display: grid;
     grid-template-rows: 70% 30%;
     justify-content: center;
     align-items: center;
-
 }
 
-.contato-desk{
+.contato-desk {
     width: 100%;
     height: 100%;
     grid-template-rows: 70% 30%;
@@ -64,18 +65,18 @@
 }
 
 @media screen and (min-width:1024px) {
-    .contato{
+    .contato {
         display: none;
     }
-    .contato-desk{
+    .contato-desk {
         display: grid;
     }
 }
 
-.img-contato{
+.img-contato {
     grid-row: 1;
     margin-top: 50px;
-    width: 350px;
+    width: 300px;
     height: 200px;
     background-color: #30073B;
     margin-left: 2px;
@@ -85,37 +86,38 @@
     display: grid;
     grid-template-columns: 50% 50%;
 }
-.loja1{
-    grid-column: 1;
+
+.loja1 {
+    grid-column: 1/3;
     border-top-left-radius: 40px;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.501);
+    /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.501); */
     display: grid;
     grid-template-rows: 25% 50% 25%;
 }
 
-.loja1 .title{
+.loja1 .title {
     grid-row: 1;
     font-family: 'Russo One', sans-serif;
-    font-style: normal;  
+    font-style: normal;
     font-weight: normal;
     font-size: 15px;
     align-self: center;
     justify-self: center;
-    padding: 10px 0 0 0 ;
+    padding: 10px 0 0 0;
     color: #74FA92;
     letter-spacing: 2px;
 }
 
-.endereco{
+.endereco {
     grid-row: 2;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-.endereco span{
+.endereco span {
     grid-row: 1;
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;  
+    font-style: normal;
     font-weight: normal;
     font-size: 10px;
     align-self: center;
@@ -125,10 +127,10 @@
     width: 90%;
 }
 
-.endereco .nmr{
+.endereco .nmr {
     grid-row: 2;
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;  
+    font-style: normal;
     font-weight: normal;
     align-self: center;
     text-align: center;
@@ -140,17 +142,17 @@
     gap: 0.7rem;
 }
 
-.nmr h3{
+.nmr h3 {
     color: white !important;
     font-size: 9px;
     -webkit-text-fill-color: white !important;
 }
 
-.number1{
+.number1 {
     transform: translateX(-5px);
 }
 
-.nmr h3 span::before{
+.nmr h3 span::before {
     font-family: 'icons';
     content: "\f232";
     font-size: 10px;
@@ -159,25 +161,25 @@
     padding: 0 5px;
 }
 
-.endereco .chegar{
+.endereco .chegar {
     grid-row: 3;
 }
 
-.chegar p{
+.chegar p {
     display: flex;
     justify-content: center;
     align-items: center;
     transform: translateX(-5px);
 }
 
-.chegar p a{
+.chegar p a {
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 10px;
     padding: 10px 0;
 }
 
-.chegar p::before{
+.chegar p::before {
     font-family: 'icons-solid';
     content: "\f3c5";
     font-size: 10px;
@@ -185,14 +187,14 @@
     padding: 0 5px;
 }
 
-.icons{
+.icons {
     grid-row: 3;
     display: flex;
     align-items: center;
     padding: 0 10px;
 }
 
-.insta p::before{
+.insta p::before {
     font-family: 'icons';
     content: "\f16d";
     font-size: 20px;
@@ -200,7 +202,7 @@
     padding: 0 10px;
 }
 
-.face p::before{
+.face p::before {
     font-family: 'icons';
     content: "\f082";
     font-size: 20px;
@@ -208,8 +210,7 @@
     padding: 0 10px;
 }
 
-
-.loja2{
+.loja2 {
     grid-column: 2;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.501);
     border-bottom-right-radius: 40px;
@@ -218,87 +219,90 @@
     justify-content: center;
 }
 
-
-.loja2 .title{
+.loja2 .title {
     grid-row: 1;
     font-family: 'Russo One', sans-serif;
-    font-style: normal;  
+    font-style: normal;
     font-weight: normal;
     font-size: 15px;
     justify-self: center;
     align-self: center;
-    padding: 10px 0 0 0 ;
+    padding: 10px 0 0 0;
     color: #74FA92;
     letter-spacing: 2px;
 }
 
-.carro-contato{
+.carro-contato {
     grid-row: 2;
-    width:250px;
+    width: 200px;
     height: 100px;
     background-image: url(../images/png/veiculo.png);
     background-repeat: no-repeat;
     background-size: contain;
-    align-self: flex-start ;
+    align-self: flex-start;
     justify-self: self-end;
     transform: translateY(-60px);
 }
 
-
-
-@media screen and (min-width:430px){
-    .img-contato{
+@media screen and (min-width:430px) {
+    .img-contato {
         margin-top: 50px;
     }
 }
 
-
-@media screen and (min-width:768px){
-    .img-contato{
-        width: 100%;
-        height: 80%;
+@media screen and (min-width:768px) {
+    .img-contato {
+        height: 70%;
         margin-top: 50px;
     }
-
-    .loja1 .title{
+    .loja1 .title {
         font-size: 20px;
     }
-
-    .loja2 .title{
+    .loja2 .title {
         font-size: 20px;
     }
-
-    .carro-contato{
-        width: 400px;
+    .carro-contato {
+        width: 230px;
         height: 200px;
+        transform: translateY(-80px);
     }
-    .endereco span{
+    .endereco span {
         font-size: 14px;
     }
-    .chegar p a{
+    .chegar p a {
         font-size: 14px;
     }
-    .chegar p::before{
+    .chegar p::before {
         font-size: 14px;
     }
-    .endereco .nmr h3{
+    .endereco .nmr h3 {
         font-size: 12px;
     }
-    .nmr h3 span::before{
+    .nmr h3 span::before {
         font-size: 12px;
     }
 }
 
-
-.arrumando{
+.arrumando {
     position: relative;
     z-index: 2;
     margin-top: -100px;
 }
 
-@media screen and (min-width:1024){
-    .arrumando{
+@media screen and (min-width:1024) {
+    .arrumando {
         margin-top: 0px;
     }
 }
 
+@media screen and (min-width:1440px) {
+    .img-contato {
+        margin-top: 100px;
+        width: 500px;
+        height: 80%;
+    }
+    .carro-contato {
+        width: 350px;
+        transform: translateY(-60px);
+    }
+}
